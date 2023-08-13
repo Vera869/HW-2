@@ -30,7 +30,7 @@ alert(age);   //Задание 8
 let user = {
    name: "Elisabeth",
    age: 45,
-   isAdmin: Boolean("admin")   //Задание 9.0 
+   isAdmin: true   //Задание 9.0 
 }
 user[`city of residence`] = "Manilla";   //Задание 9.1
 user.age = 25;    //Задание 9.2
