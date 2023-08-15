@@ -1,3 +1,4 @@
+ //Задание 1
 let password = 'простой пароль';
 let aske = String(prompt("Введите пароль"));
 aske.toLowerCase();
@@ -5,21 +6,23 @@ if (password === 'простой пароль') {
    alert("Пароль введен верно");
 } else {
    alert("Пароль введен неправильно")
-}                                           //Задание 1
-
-let c = Number(prompt("Введите число"));  //проверить при c равной 0, 10, −3, 2.
-c = (c>0 && c<10) ? console.log(alert("Верно")): console.log(alert("Неверно"));  //Задание 2
-
+}                                          
+ //Задание 2
+let c = Number(prompt("Введите число"));   //проверить при c равной 0, 10, −3, 2.
+c = (c>0 && c<10) ? console.log(alert("Верно")): console.log(alert("Неверно")); 
+//Задание 3  
 let d = Number(prompt("Введите число"));
 let e = Number(prompt("Введите число"));
 if (d===100 || e===100) {
    console.log(alert("Верно"));
 } else {
    console.log(alert("Неверно"));
-}                                            //Задание 3
+}                
+//Задание 4                    
 let a = '2';
 let b = '3';
-alert(Number(a) + Number(b));             //Задание 4
+alert(Number(a) + Number(b));           
+//Задание 5   
 let monthNumber = Number(prompt("Укажите номер месяца"));
 
 switch (monthNumber) {
@@ -62,17 +65,19 @@ switch (monthNumber) {
    default:
       alert("нет такого месяца");
       break;
-}                                          //Задание 5
+}                                        
 
 //Дополнительная практика
 
+//Задание 7
 let variable = Number(prompt("Пожалуйста, введите любое число"));
 let division = variable % 2;
-let result = division===0 ? alert("Число четное"): alert("Число нечетное"); //Задание 7
+let result = division===0 ? alert("Число четное"): alert("Число нечетное"); 
 
+//Задание 8
 let clientOS = Number(prompt("Если Ваша  операционная система ios-введите 0, если Androin-введите 1"))
-//let answer = clientOS === 0 ? console.log("Установите версию приложения для iOS по ссылке") : console.log("Установите версию приложения для Android по ссылке");//Задание 8
-
+let answer = clientOS === 0 ? console.log("Установите версию приложения для iOS по ссылке") : console.log("Установите версию приложения для Android по ссылке");
+//Задание 9
 let clientDeviceYear = Number(prompt("Укажите год выпуска Вашего устройства"));
 
 if (clientOS === 0) {
@@ -89,7 +94,6 @@ if (clientOS === 0) {
       console.log("Установите облегченную версию приложения для Android по ссылке");
    } 
 }
-
 
 
 
